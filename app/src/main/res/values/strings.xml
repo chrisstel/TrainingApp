@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TrainingApp</string>
+    <string name="save">Save</string>
+    <string name="book_title">Book title</string>
+    <string name="author">Author</string>
+    <string name="home">Home</string>
+    <string name="saved">Saved</string>
+</resources>

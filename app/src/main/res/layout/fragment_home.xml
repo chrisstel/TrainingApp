@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.home.HomeFragment"
+    android:layout_marginHorizontal="50dp"
+    android:layout_marginVertical="200dp"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:weightSum="10">
+
+    <EditText
+        android:id="@+id/ET_book_author"
+        android:layout_width="match_parent"
+        android:maxWidth="250dp"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:layout_weight="1"
+        tools:text="Tolstoy"
+        android:hint="@string/author"
+        android:maxLines="1"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/ET_book_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:layout_weight="1"
+        android:hint="@string/book_title"
+        tools:text="The war and the piece"
+        android:maxLines="1"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/btn_save_book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/save"/>
+
+</LinearLayout>
